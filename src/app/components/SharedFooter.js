@@ -11,7 +11,7 @@ const SharedFooter = () => {
             alt="Flowbite Logo"
             href="/"
             name="Frame Spote"
-            src="https://flowbite.com/docs/images/logo.svg"
+            src="/frameSpot.png"
           />
           <Footer.LinkGroup className=' flex-col md:flex-row gap-4'>
             <Footer.Link href="#">
