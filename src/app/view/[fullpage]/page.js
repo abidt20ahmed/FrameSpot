@@ -65,7 +65,7 @@ const [show, setShow] = useState(false)
            <img src={`/${image}`}
            onClick={()=> setShow(false)}
                 alt="Card Image"
-                className=" w-full h-screen object-cover object-center "
+                className=" w-full h-auto object-cover object-center "
                 // className=" w-full h-[100vh] object-cover object-center "
                 />
         </div>

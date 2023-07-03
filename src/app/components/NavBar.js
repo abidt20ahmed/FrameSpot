@@ -26,8 +26,8 @@ const NavBar = () => {
       rounded
     >
       
-        <span className="self-center whitespace-nowrap text-2xl font-bold text-red-500 dark:text-white">
-          <img src='/frameSpot.png' />
+        <span className="self-center flex items-center gap-2 whitespace-nowrap text-2xl font-bold text-red-500 dark:text-white">
+          <img className=' h-9' src='/frameSpot.png' />
           FrameSpot
         </span>
       
