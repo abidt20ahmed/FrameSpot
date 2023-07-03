@@ -1,6 +1,7 @@
 'use client';
 // import React from 'react';
 import { Button, Navbar } from 'flowbite-react';
+import Link from 'next/link';
 const NavBar = () => {
    const navBg = {
         backgroundImage: "url('https://img.freepik.com/free-photo/beautiful-scenery-rock-formations-by-sea-queens-bath-kauai-hawaii-sunset_181624-36857.jpg?w=1380&t=st=1688232916~exp=1688233516~hmac=2001851e7507db57e635ddf8052cf88c8814cc3e790e830f3498e8ed21074a1c')",
@@ -35,16 +36,23 @@ const NavBar = () => {
         </Button>
         {/* <Navbar.Toggle /> */}
       </div>
-      {/* <Navbar.Collapse>
-        <Navbar.Link
+      <Navbar.Collapse>
+        {/* <Navbar.Link
           active
-          href="#"
+          className=' active:text-orange-500 text-orange-500'
+          href="/"
         >
           <p>
             Home
           </p>
-        </Navbar.Link>
-        <Navbar.Link href="#">
+        </Navbar.Link> */}
+        <Link href="/" className="text-orange-500 hover:text-orange-700 active:text-red-700" passHref>
+        
+          Home
+        
+      </Link>
+        
+        {/* <Navbar.Link href="#">
           About
         </Navbar.Link>
         <Navbar.Link href="#">
@@ -55,9 +63,9 @@ const NavBar = () => {
         </Navbar.Link>
         <Navbar.Link href="#">
           Contact
-        </Navbar.Link>
+        </Navbar.Link> */}
       </Navbar.Collapse>
-   */}
+  
     </Navbar>
     </div>   
       </div>  

@@ -9,8 +9,8 @@ const SharedFooter = () => {
         <div className="w-full flex flex-col gap-4 lg:flex-row justify-between items-center">
           <Footer.Brand
             alt="Flowbite Logo"
-            href="https://flowbite.com"
-            name="Flowbite"
+            href="/"
+            name="Frame Spote"
             src="https://flowbite.com/docs/images/logo.svg"
           />
           <Footer.LinkGroup className=' flex-col md:flex-row gap-4'>
@@ -30,7 +30,7 @@ const SharedFooter = () => {
         </div>
         <Footer.Divider />
         <Footer.Copyright
-          by="Flowbite™"
+          by="FrameSpot™"
           href="#"
           year={2022}
         />

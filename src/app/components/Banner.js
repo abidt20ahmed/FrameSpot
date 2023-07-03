@@ -5,7 +5,8 @@ import React from 'react';
 const Banner = () => {
 
     const sectionStyle = {
-        backgroundImage: "url('https://img.freepik.com/free-photo/beautiful-scenery-rock-formations-by-sea-queens-bath-kauai-hawaii-sunset_181624-36857.jpg?w=1380&t=st=1688232916~exp=1688233516~hmac=2001851e7507db57e635ddf8052cf88c8814cc3e790e830f3498e8ed21074a1c')",
+        // backgroundImage: "url('https://img.freepik.com/free-photo/beautiful-scenery-rock-formations-by-sea-queens-bath-kauai-hawaii-sunset_181624-36857.jpg?w=1380&t=st=1688232916~exp=1688233516~hmac=2001851e7507db57e635ddf8052cf88c8814cc3e790e830f3498e8ed21074a1c')",
+        backgroundImage: "url('/sunset2.jpg')",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
