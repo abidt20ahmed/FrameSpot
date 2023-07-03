@@ -27,6 +27,7 @@ const NavBar = () => {
     >
       
         <span className="self-center whitespace-nowrap text-2xl font-bold text-red-500 dark:text-white">
+          <img src='/frameSpot.png' />
           FrameSpot
         </span>
       
